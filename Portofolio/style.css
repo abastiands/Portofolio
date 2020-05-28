@@ -1,0 +1,458 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+}
+
+.header{
+    width: 100%;
+    background-color: #000000;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    z-index: 9999;
+}
+
+.header-logo{
+    padding-top: 15px;
+    font-size: 18px;
+    margin-left: 120px;
+    float: left;
+}
+
+.header-logo a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.navbar{
+    font-size: 16px;
+    padding-right: 50px;
+    float: right;
+}
+
+.navbar ul li{
+    display: inline-block;
+    margin-left: -4px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #ffffff;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.navbar > ul > li > a:hover{
+    background-color: #00a90d;
+}
+
+.main{
+    width: 100%;
+    min-height: 300px;
+    position: relative;
+}
+
+#home{
+    width: 100%;
+    height: 500px;
+    padding-bottom: 200px;
+    text-align: center;
+}
+
+.home-foto{
+    padding-left: 550px;
+    padding-top: 100px;
+    width: 250px;
+    height: 250px;
+}
+
+.home-foto img{
+    width: 100%;
+    height: 100%;
+    border: 3px solid #000000;
+    box-shadow: 8px 8px 8px 8px #cccccc;
+    border-radius: 200px;
+}
+
+.home-nama{
+    padding-top: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: rgba(40, 40, 40, 0.7) 5px 5px 5px;
+}
+
+.home-deskripsi{
+    padding-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+
+.home-button{
+    padding-top: 20px;
+    margin-left: 420px;
+    margin-right: 380px;
+}
+
+.home-button button{
+    width: 160px;
+    height: 80px;
+    border-radius: 15px;
+    background-color: #2e8b57;
+    color: #ffffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    box-shadow: 6px 9px #000000;
+    cursor: pointer;
+}
+
+.home-button button:hover{
+    background-color: #eeeeee;
+    color: #000000;
+    cursor: pointer;
+}
+
+.home-button > .button{
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+#about{
+    background-color: #d3d8e8d4;
+    width: 85%;
+    height: 900px;
+    padding: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#about > h1{
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 48px;
+    text-shadow: 5px 5px #aaaaaa;
+}
+
+.about-top{
+    width: 30%;
+    min-height: 100px;
+    float: left;
+    display: block;
+    background-color: #3a866ad4;
+    padding: 20px;
+    padding-bottom: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 400px;
+    color: #ffffff;
+    border-radius: 15px 15px;
+    box-shadow: 6px 10px #000000;
+}
+
+.about-top:hover{
+    background-color: #ff0000;
+    transition-duration: 10s;
+}
+
+.about-top h1{
+    text-align: center;
+}
+
+.about-middle{
+    width: 30%;
+    height: 150px;
+    float: right;
+    display: block;
+    background-color: #a5ec33d4;
+    padding: 20px;
+    padding-bottom: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 400px;
+    margin-right: 20px;
+    color: #000000;
+    border-radius: 15px 15px;
+    box-shadow: -6px 10px #000000;
+}
+
+.about-middle:hover{
+    background-color: #ffff00;
+    transition-duration: 10s;
+}
+
+.about-middle h1{
+    text-align: center;
+}
+
+.about-bottom{
+    width: 30%;
+    height: 120px;
+    float: left;
+    display: block;
+    background-color: #4170f5d4;
+    padding: 20px;
+    padding-bottom: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #ffffff;
+    border-radius: 15px 15px;
+    box-shadow: 6px 10px #000000;
+}
+
+.about-bottom:hover{
+    background-color: #ff0099d4;
+    transition-duration: 10s;
+}
+
+.about-bottom h1{
+    text-align: center;
+}
+
+#portofolio{
+    padding: 100px;
+    width: 85%;
+    height: 600px;
+    float: left;
+}
+
+#portofolio > h1{
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 48px;
+    text-shadow: 5px 5px #bbbbbb;
+}
+
+.img-all{
+    padding-left: 100px;
+}
+
+.img-sbg, .img-sbg2{
+    height: 270px;
+}
+
+.img1, .img2, .img3, .img4, .img5, .img6{
+    width: 27%;
+    display: block;
+    float: left;
+    padding: 10px;
+    border: 1px solid #000000;
+    box-shadow: 5px 5px 5px 5px #cccccc;
+    margin-right: 20px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+}
+
+.img1:hover, .img2:hover, .img3:hover, .img4:hover, .img5:hover, .img6:hover{
+    box-shadow: 5px 5px 5px 5px #e3e3e3;
+    text-shadow: rgba(40, 40, 40, 0.7) 5px 5px 5px;
+}
+
+.img1, .img2, .img3, .img4, .img5, .img6 > p{
+    text-align: center;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#portofolio img{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #000000;
+    cursor: zoom-in;
+}
+
+#portofolio img:hover{
+    width: 120%;
+    height: 120%;
+    margin-top: -30px;
+    margin-left: -30px;
+}
+
+#service{
+    clear: both;
+    background-color: #d3d8e8d4;
+    width: 100%;
+    padding: 100px 0px;
+    height: 700px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#service > h1{
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 48px;
+    text-shadow: 5px 5px #bbbbbb;
+}
+
+.service-body{
+    margin: 100px;
+    padding: 10px;
+    width: 83%;
+    height: 450px;
+    background-color: #ffffff;
+}
+
+.service-left{
+    padding-left: 30px;
+    width: 40%;
+    height: 100%;
+    float: left;
+}
+
+.progress {
+    width: 70%;
+    height: 20px;
+    color: #00ffa1;
+    background: #efefef;
+   }
+   .progress::-webkit-progress-bar {
+    background: #efefef;
+   }
+   .progress::-webkit-progress-value {
+    background: #00ffa1;
+   }
+   .progress::-moz-progress-bar {
+    color: #00ffa1;
+    background: #efefef;
+   }
+
+.service-left ul{
+    margin-left: -40px;
+    list-style: none;
+}
+
+.service-right{
+    padding: 10px;
+    width: 50%;
+    height: 100%;
+    margin-left: 50px;
+    float: right;
+}
+
+.service-right h3{
+    text-align: center;
+}
+
+.job-left{
+    padding: 50px 10px 0px;
+    border-radius: 200px;
+    float: left;
+    width: 40%;
+    height: 60%;
+    text-align: justify;
+    border: 1px solid #000000;
+    background-color: #ffff00;
+}
+
+.job-right{
+    padding: 50px 10px 0px;
+    border-radius: 200px;
+    margin-left: 20px;
+    float: left;
+    width: 40%;
+    height: 60%;
+    text-align: justify;
+    border: 1px solid #000000;
+    background-color: #ff8d00;
+}
+
+#contact{
+    padding: 100px;
+    width: 85%;
+    height: 600px;
+}
+
+
+#contact > h1{
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 48px;
+    text-shadow: 5px 5px #bbbbbb;
+}
+
+.form-header{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    display: inline-block;
+    width: 50%;
+}
+
+.form-body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    padding-left: 53px;
+    display: inline-block;
+    width: 45%;
+}
+
+.form-header input, .form-body input{
+    padding: 10px;
+    height: 20px;
+    width: 100%;
+    background-color: #e5e5e5;
+    border: none;
+}
+
+.form-footer{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    padding-top: 20px;
+    display: inline-block;
+    width: 100%;
+}
+
+.form-footer textarea{
+    padding: 10px;
+    height: 200px;
+    width: 100%;
+    background-color: #e5e5e5;
+    border: none;
+}
+
+.form-footer input{
+    margin-top: 20px;
+    width: 100px;
+    height: 50px;
+    color: #ffffff;
+    background-color: #5fc3e4;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px #cccccc;
+    border: none;
+}
+
+.form-footer input:hover{
+    color: #ffffff;
+    background-color: #2d821d;
+    border: none;
+    cursor: pointer;
+}
+
+.footer{
+    clear: both;
+    float: left;
+    width: 100%;
+    height: 50px;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 5px 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+
+.footer p{
+    font-size: 14px;
+}
